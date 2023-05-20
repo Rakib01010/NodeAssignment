@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const publicDir = path.join(__dirname, 'public');
-const port = 8080;
+const port = 3000;
 
 const server = http.createServer((req, res) => {
   const filePath = path.join(publicDir, req.url);
